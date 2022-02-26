@@ -24,9 +24,9 @@ public class Boss
 
     public void Magic()
     {
-        this.mp = mp - 5;
-        if (mp > 0)
+        if (mp >= 5)
         {
+            this.mp = mp - 5;
             Debug.Log("–‚–@UŒ‚‚ğ‚µ‚½Bc‚èMP‚Í" + mp);
         }
         else
